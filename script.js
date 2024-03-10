@@ -1,6 +1,6 @@
-const inputbox = document.getElementById("input-box");
+var inputbox = document.getElementById("input-box");
 
-const listContainer = document.getElementById("list-container");
+var listContainer = document.getElementById("list-container");
 
 function addtask() {
     if(inputbox.value === '' ){
@@ -48,3 +48,11 @@ function showTask (){
 }
 
 showTask ();
+
+function sum(n1 , n2) {
+    var result = 50;
+    
+    return result;
+}
+
+console.log(sum());
